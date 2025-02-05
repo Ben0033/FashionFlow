@@ -7,7 +7,7 @@ FashionFlow/
 ├── php/
 │   ├── connexion.php
 │   ├── inscription.php
-│   ├── connexion_utilisateur.php
+│   ├── connexion.php
 │   ├── rendez_vous.php
 │   └── commandes.php
 ├── README.md
