@@ -5,7 +5,9 @@ FashionFlow/
 ├── js/
 │   └── scripts.js
 ├── php/
-│   ├── connexion_user.php
+│   ├── index.php
+│   ├── dashboard_client.php
+│   ├── dashboard_coutrier.php
 │   ├── inscription.php
 │   ├── connexion.php
 │   ├── rendez_vous.php
