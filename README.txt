@@ -9,6 +9,7 @@ FashionFlow/
 │   ├── dashboard_client.php
 │   ├── dashboard_coutrier.php
 │   ├── inscription.php
+│   ├── taches.php
 │   ├── connexion.php
 │   ├── rendez_vous.php
 │   └── commandes.php
