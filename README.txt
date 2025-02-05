@@ -7,6 +7,7 @@ FashionFlow/
 ├── php/
 │   ├── index.php
 │   ├── dashboard_client.php
+│   ├── models_client.php
 │   ├── dashboard_coutrier.php
 │   ├── inscription.php
 │   ├── taches.php
