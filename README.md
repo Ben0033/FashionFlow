@@ -9,6 +9,7 @@ FashionFlow est une application de gestion pour une maison de couture. Elle perm
 - Gestion des clients
 - Gestion des tâches
 - Gestion des commandes
+- Gestion des emplyees(si y en a)
 - Visualisation des modèles
 
 ### Pour les clients
@@ -19,7 +20,8 @@ FashionFlow est une application de gestion pour une maison de couture. Elle perm
 ## Contribution au projet
 
 Pour installer FashionFlow, vous devez suivre les étapes suivantes:
-1. Cloner le dépôt Git: https://github.com/Ben0033/FashionFlow.git
+
+1. Cloner le dépôt Git: <https://github.com/Ben0033/FashionFlow.git>
 
 ## Contribuer
 
