@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Questions Fréquentes</title>
+    <style>
+        .faq p {
+            display: none;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const faqs = document.querySelectorAll(".faq h2");
+            faqs.forEach(faq => {
+                faq.addEventListener("click", function() {
+                    const content = this.nextElementSibling;
+                    content.style.display = content.style.display === "block" ? "none" : "block";
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>FAQ - Questions Fréquentes</h1>
+    </header>
+    <div class="container">
+        <div class="faq">
+            <h2>Comment prendre rendez-vous avec un médecin ?</h2>
+            <p>Vous pouvez prendre rendez-vous directement via notre interface patient en vous connectant à votre compte.</p>
+        </div>
+        <div class="faq">
+            <h2>Quels documents sont nécessaires pour une consultation ?</h2>
+            <p>Veuillez apporter une pièce d'identité et votre carte d'assurance maladie. Les documents spécifiques peuvent varier selon le type de consultation.</p>
+        </div>
+        <div class="faq">
+            <h2>Comment contacter le support client ?</h2>
+            <p>Vous pouvez nous contacter via le formulaire de contact disponible sur notre site ou par téléphone au numéro indiqué dans la section "Contact".</p>
+        </div>
+        <div class="faq">
+            <h2>Quelles sont les heures d'ouverture des services ?</h2>
+            <p>Nos services sont ouverts du lundi au vendredi, de 8h à 18h. Certains services spécifiques peuvent avoir des horaires différents.</p>
+        </div>
+    </div>
+</body>
+</html>

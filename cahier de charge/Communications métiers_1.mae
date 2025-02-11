@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{95EDF448-F6D9-48A5-919C-1C461AF19E47}" Label="" LastModificationDate="1739234701" Name="Diagramme des flux" Objects="19" Symbols="35" Type="{5215C79E-A9A1-4738-A627-36DA432EFE29}" signature="EAM_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{95EDF448-F6D9-48A5-919C-1C461AF19E47}" Label="" LastModificationDate="1739234469" Name="Diagramme des flux" Objects="19" Symbols="35" Type="{5215C79E-A9A1-4738-A627-36DA432EFE29}" signature="EAM_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>Diagramme_des_flux</a:Code>
 <a:CreationDate>1738510835</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
-<a:ModificationDate>1739234701</a:ModificationDate>
+<a:ModificationDate>1739234196</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -1588,14 +1588,15 @@ ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOption
 <a:Code>Employees_et_apprenti_couturier</a:Code>
 <a:CreationDate>1738515788</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
-<a:ModificationDate>1739234701</a:ModificationDate>
+<a:ModificationDate>1739234469</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:OrganizationUnit.Roles>
 <o:Role Ref="o6"/>
 <o:Role Ref="o7"/>
+<o:Role Ref="o8"/>
 </c:OrganizationUnit.Roles>
 <c:Manager>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Manager>
 <c:OrganizationUnit.Sites>
 <o:Site Ref="o4"/>
@@ -1603,23 +1604,24 @@ ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOption
 </o:OrganizationUnit>
 </c:OrganizationUnits>
 <c:People>
-<o:Person Id="o8">
+<o:Person Id="o9">
 <a:ObjectID>06246C1B-2584-43B4-86D9-2A81485988DA</a:ObjectID>
 <a:Name>Couturier</a:Name>
 <a:Code>Couturier</a:Code>
 <a:CreationDate>1738511412</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
-<a:ModificationDate>1739234701</a:ModificationDate>
+<a:ModificationDate>1739234446</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Person.Roles>
 <o:Role Ref="o6"/>
 <o:Role Ref="o7"/>
+<o:Role Ref="o8"/>
 </c:Person.Roles>
 <c:Person.Site>
 <o:Site Ref="o4"/>
 </c:Person.Site>
 </o:Person>
-<o:Person Id="o9">
+<o:Person Id="o10">
 <a:ObjectID>386C123A-A5DC-49D8-8908-6226EF3585DB</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
@@ -1628,7 +1630,7 @@ ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOption
 <a:ModificationDate>1739234399</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Person.Roles>
-<o:Role Ref="o10"/>
+<o:Role Ref="o11"/>
 </c:Person.Roles>
 </o:Person>
 </c:People>
@@ -1643,6 +1645,15 @@ ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOption
 <a:Modifier>lenovo</a:Modifier>
 </o:Role>
 <o:Role Id="o7">
+<a:ObjectID>35E3F245-2772-41E8-8BD2-99BCF95E15FF</a:ObjectID>
+<a:Name>Enregistrement d&#39;une commande</a:Name>
+<a:Code>Enregistrement_d_une_commande</a:Code>
+<a:CreationDate>1738521446</a:CreationDate>
+<a:Creator>lenovo</a:Creator>
+<a:ModificationDate>1739234469</a:ModificationDate>
+<a:Modifier>lenovo</a:Modifier>
+</o:Role>
+<o:Role Id="o8">
 <a:ObjectID>30A5F40E-AD6C-43FA-BDA9-E6950B88934A</a:ObjectID>
 <a:Name>Lancer une tâche</a:Name>
 <a:Code>Lancer_une_tache</a:Code>
@@ -1651,7 +1662,7 @@ ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOption
 <a:ModificationDate>1739234469</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 </o:Role>
-<o:Role Id="o10">
+<o:Role Id="o11">
 <a:ObjectID>786446A2-B296-425E-9E60-7DD93FBDE603</a:ObjectID>
 <a:Name>Lancer une commande</a:Name>
 <a:Code>Lancer_une_commande</a:Code>
@@ -1668,7 +1679,7 @@ ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOption
 <a:Code>DiagrammeCommunicationsMetiers_1</a:Code>
 <a:CreationDate>1738510835</a:CreationDate>
 <a:Creator>lenovo</a:Creator>
-<a:ModificationDate>1739234701</a:ModificationDate>
+<a:ModificationDate>1739234196</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -2877,7 +2888,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:TextSymbol Id="o11">
+<o:TextSymbol Id="o12">
 <a:Text>1</a:Text>
 <a:CreationDate>1738518640</a:CreationDate>
 <a:ModificationDate>1738520327</a:ModificationDate>
@@ -2891,7 +2902,7 @@ Shadow=0</a:DisplayPreferences>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:BusinessFlowSymbol Id="o12">
+<o:BusinessFlowSymbol Id="o13">
 <a:CreationDate>1738515187</a:CreationDate>
 <a:ModificationDate>1738520500</a:ModificationDate>
 <a:CenterTextOffset>(27300, -825)</a:CenterTextOffset>
@@ -2903,16 +2914,16 @@ Shadow=0</a:DisplayPreferences>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o14"/>
+<o:PersonSymbol Ref="o15"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o15"/>
+<o:BusinessFlow Ref="o16"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o16">
+<o:BusinessFlowSymbol Id="o17">
 <a:CreationDate>1738511794</a:CreationDate>
 <a:ModificationDate>1738520312</a:ModificationDate>
 <a:CenterTextOffset>(9450, 750)</a:CenterTextOffset>
@@ -2924,16 +2935,16 @@ Shadow=0</a:DisplayPreferences>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o14"/>
+<o:PersonSymbol Ref="o15"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o17"/>
+<o:BusinessFlow Ref="o18"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o18">
+<o:BusinessFlowSymbol Id="o19">
 <a:CreationDate>1738516124</a:CreationDate>
 <a:ModificationDate>1738520487</a:ModificationDate>
 <a:CenterTextOffset>(-14100, -750)</a:CenterTextOffset>
@@ -2945,16 +2956,16 @@ Shadow=0</a:DisplayPreferences>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o14"/>
+<o:PersonSymbol Ref="o15"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o19"/>
+<o:BusinessFlow Ref="o20"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o20">
+<o:BusinessFlowSymbol Id="o21">
 <a:CreationDate>1738518037</a:CreationDate>
 <a:ModificationDate>1738520312</a:ModificationDate>
 <a:CenterTextOffset>(-6900, -1050)</a:CenterTextOffset>
@@ -2966,16 +2977,16 @@ Shadow=0</a:DisplayPreferences>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o14"/>
+<o:PersonSymbol Ref="o15"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o21"/>
+<o:BusinessFlow Ref="o22"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o22">
+<o:BusinessFlowSymbol Id="o23">
 <a:CreationDate>1738519090</a:CreationDate>
 <a:ModificationDate>1738520312</a:ModificationDate>
 <a:CenterTextOffset>(-24975, -900)</a:CenterTextOffset>
@@ -2987,16 +2998,16 @@ Shadow=0</a:DisplayPreferences>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o14"/>
+<o:PersonSymbol Ref="o15"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o23"/>
+<o:BusinessFlow Ref="o24"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o24">
+<o:BusinessFlowSymbol Id="o25">
 <a:CreationDate>1738519175</a:CreationDate>
 <a:ModificationDate>1738520312</a:ModificationDate>
 <a:CenterTextOffset>(-29325, 600)</a:CenterTextOffset>
@@ -3008,16 +3019,16 @@ Shadow=0</a:DisplayPreferences>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o14"/>
+<o:PersonSymbol Ref="o15"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o25"/>
+<o:BusinessFlow Ref="o26"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:PersonSymbol Id="o14">
+<o:PersonSymbol Id="o15">
 <a:CreationDate>1738511414</a:CreationDate>
 <a:ModificationDate>1738519973</a:ModificationDate>
 <a:IconMode>2</a:IconMode>
@@ -3041,10 +3052,10 @@ SITE 0 Arial,8,N</a:FontList>
 <a:KeepAspect>1</a:KeepAspect>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object>
 </o:PersonSymbol>
-<o:SiteSymbol Id="o26">
+<o:SiteSymbol Id="o27">
 <a:CreationDate>1738515655</a:CreationDate>
 <a:ModificationDate>1738521118</a:ModificationDate>
 <a:IconMode>1</a:IconMode>
@@ -3061,7 +3072,7 @@ CNTY 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>19</a:GradientFillMode>
 <a:GradientEndColor>16316657</a:GradientEndColor>
 <c:SubSymbols>
-<o:BusinessFlowSymbol Id="o27">
+<o:BusinessFlowSymbol Id="o28">
 <a:CreationDate>1738518785</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
 <a:CenterTextOffset>(-1425, 225)</a:CenterTextOffset>
@@ -3073,16 +3084,16 @@ CNTY 0 Arial,8,N</a:FontList>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:OrganizationUnitSymbol Ref="o28"/>
+<o:OrganizationUnitSymbol Ref="o29"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o29"/>
+<o:BusinessFlow Ref="o30"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o30">
+<o:BusinessFlowSymbol Id="o31">
 <a:CreationDate>1738518425</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
 <a:CenterTextOffset>(900, 675)</a:CenterTextOffset>
@@ -3094,16 +3105,16 @@ CNTY 0 Arial,8,N</a:FontList>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:OrganizationUnitSymbol Ref="o28"/>
+<o:OrganizationUnitSymbol Ref="o29"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o31"/>
+<o:BusinessFlow Ref="o32"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:BusinessFlowSymbol Id="o32">
+<o:BusinessFlowSymbol Id="o33">
 <a:CreationDate>1738515523</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
 <a:CenterTextOffset>(-6400, 800)</a:CenterTextOffset>
@@ -3115,16 +3126,16 @@ CNTY 0 Arial,8,N</a:FontList>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>CENTER 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:PersonSymbol Ref="o13"/>
+<o:PersonSymbol Ref="o14"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:BusinessFlow Ref="o33"/>
+<o:BusinessFlow Ref="o34"/>
 </c:Object>
 </o:BusinessFlowSymbol>
-<o:OrganizationUnitSymbol Id="o28">
+<o:OrganizationUnitSymbol Id="o29">
 <a:CreationDate>1738515788</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
 <a:IconMode>2</a:IconMode>
@@ -3149,7 +3160,7 @@ WBST 0 Arial,8,N</a:FontList>
 <o:OrganizationUnit Ref="o5"/>
 </c:Object>
 </o:OrganizationUnitSymbol>
-<o:PersonSymbol Id="o13">
+<o:PersonSymbol Id="o14">
 <a:CreationDate>1738511412</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
 <a:IconMode>2</a:IconMode>
@@ -3173,10 +3184,10 @@ SITE 0 Arial,8,N</a:FontList>
 <a:KeepAspect>1</a:KeepAspect>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object>
 </o:PersonSymbol>
-<o:TextSymbol Id="o34">
+<o:TextSymbol Id="o35">
 <a:Text>4</a:Text>
 <a:CreationDate>1738518727</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
@@ -3190,7 +3201,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:TextSymbol Id="o35">
+<o:TextSymbol Id="o36">
 <a:Text>6</a:Text>
 <a:CreationDate>1738518764</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
@@ -3204,7 +3215,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:TextSymbol Id="o36">
+<o:TextSymbol Id="o37">
 <a:Text>7</a:Text>
 <a:CreationDate>1738518906</a:CreationDate>
 <a:ModificationDate>1738521110</a:ModificationDate>
@@ -3223,7 +3234,7 @@ SITE 0 Arial,8,N</a:FontList>
 <o:Site Ref="o4"/>
 </c:Object>
 </o:SiteSymbol>
-<o:TextSymbol Id="o37">
+<o:TextSymbol Id="o38">
 <a:Text>2</a:Text>
 <a:CreationDate>1738518687</a:CreationDate>
 <a:ModificationDate>1738520496</a:ModificationDate>
@@ -3237,7 +3248,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:TextSymbol Id="o38">
+<o:TextSymbol Id="o39">
 <a:Text>3</a:Text>
 <a:CreationDate>1738518706</a:CreationDate>
 <a:ModificationDate>1738520491</a:ModificationDate>
@@ -3251,7 +3262,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:TextSymbol Id="o39">
+<o:TextSymbol Id="o40">
 <a:Text>5</a:Text>
 <a:CreationDate>1738518742</a:CreationDate>
 <a:ModificationDate>1738520516</a:ModificationDate>
@@ -3265,7 +3276,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:TextSymbol Id="o40">
+<o:TextSymbol Id="o41">
 <a:Text>8</a:Text>
 <a:CreationDate>1738519155</a:CreationDate>
 <a:ModificationDate>1738520427</a:ModificationDate>
@@ -3279,7 +3290,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:TextSymbol Id="o41">
+<o:TextSymbol Id="o42">
 <a:Text>9</a:Text>
 <a:CreationDate>1738519203</a:CreationDate>
 <a:ModificationDate>1738520437</a:ModificationDate>
@@ -3293,7 +3304,7 @@ SITE 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:TextSymbol>
-<o:RoleSymbol Id="o42">
+<o:RoleSymbol Id="o43">
 <a:CreationDate>1738521442</a:CreationDate>
 <a:ModificationDate>1738537305</a:ModificationDate>
 <a:IconMode>2</a:IconMode>
@@ -3314,7 +3325,28 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Role Ref="o6"/>
 </c:Object>
 </o:RoleSymbol>
-<o:RoleSymbol Id="o43">
+<o:RoleSymbol Id="o44">
+<a:CreationDate>1738521446</a:CreationDate>
+<a:ModificationDate>1738537302</a:ModificationDate>
+<a:IconMode>2</a:IconMode>
+<a:Rect>((-40850,16725), (-36051,21524))</a:Rect>
+<a:LineColor>489620</a:LineColor>
+<a:FillColor>13890042</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>1031</a:GradientFillMode>
+<a:CustomPictureType>3</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:Object>
+<o:Role Ref="o7"/>
+</c:Object>
+</o:RoleSymbol>
+<o:RoleSymbol Id="o45">
 <a:CreationDate>1738521462</a:CreationDate>
 <a:ModificationDate>1738537300</a:ModificationDate>
 <a:IconMode>2</a:IconMode>
@@ -3332,10 +3364,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:KeepAspect>1</a:KeepAspect>
 <c:Object>
-<o:Role Ref="o7"/>
+<o:Role Ref="o8"/>
 </c:Object>
 </o:RoleSymbol>
-<o:RoleSymbol Id="o44">
+<o:RoleSymbol Id="o46">
 <a:CreationDate>1739234196</a:CreationDate>
 <a:ModificationDate>1739234196</a:ModificationDate>
 <a:IconMode>2</a:IconMode>
@@ -3353,14 +3385,14 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:KeepAspect>1</a:KeepAspect>
 <c:Object>
-<o:Role Ref="o10"/>
+<o:Role Ref="o11"/>
 </c:Object>
 </o:RoleSymbol>
 </c:Symbols>
 </o:BusinessCommunicationDiagram>
 </c:BusinessCommunicationDiagrams>
 <c:BusinessFlows>
-<o:BusinessFlow Id="o17">
+<o:BusinessFlow Id="o18">
 <a:ObjectID>18EAAF82-45AE-4F86-8F06-C2BBDB23D187</a:ObjectID>
 <a:Name>Demande d&#39;une couture</a:Name>
 <a:Code>Demande_d_une_couture</a:Code>
@@ -3369,13 +3401,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1738515169</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Object1>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o15">
+<o:BusinessFlow Id="o16">
 <a:ObjectID>ED772E31-8AFC-44A8-8913-8AD37FB293B1</a:ObjectID>
 <a:Name>Devis</a:Name>
 <a:Code>FluxMetiers_2</a:Code>
@@ -3384,13 +3416,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1738515252</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Object1>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o33">
+<o:BusinessFlow Id="o34">
 <a:ObjectID>FB8348BE-9CB2-460C-A839-A5A5699D0CE5</a:ObjectID>
 <a:Name>Prend les mesures du client</a:Name>
 <a:Code>Prend_les_mesures_du_client</a:Code>
@@ -3401,13 +3433,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ConditionAlias>Le client est venu au couturier ou l&#39;inverse</a:ConditionAlias>
 <a:ConditionExpression>Si le client et le couturier se sont rencontrer</a:ConditionExpression>
 <c:Object1>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o19">
+<o:BusinessFlow Id="o20">
 <a:ObjectID>2161799E-CB29-45AD-A667-BDAE6CF63D64</a:ObjectID>
 <a:Name>Premier rendez-vous pour prise de mesure</a:Name>
 <a:Code>FluxMetiers_4</a:Code>
@@ -3418,13 +3450,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ConditionAlias>Client à distance</a:ConditionAlias>
 <a:ConditionExpression>si le client et le couturier sont éloigné </a:ConditionExpression>
 <c:Object1>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o21">
+<o:BusinessFlow Id="o22">
 <a:ObjectID>6A29179A-B302-48A9-94E1-0455A49C3ECF</a:ObjectID>
 <a:Name>fourniture(matière de confection) ou montant des fourniture et/ou avance</a:Name>
 <a:Code>fourniture_matiere_de_confection__ou_montant_des_fourniture_et_ou_avance</a:Code>
@@ -3433,13 +3465,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1738518413</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Object1>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o31">
+<o:BusinessFlow Id="o32">
 <a:ObjectID>E9065024-CE10-4419-816D-58D36F950CF8</a:ObjectID>
 <a:Name>Taches du commande</a:Name>
 <a:Code>FluxMetiers_6</a:Code>
@@ -3451,10 +3483,10 @@ LABL 0 Arial,8,N</a:FontList>
 <o:OrganizationUnit Ref="o5"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o29">
+<o:BusinessFlow Id="o30">
 <a:ObjectID>924C0EB0-89AD-45C3-89FE-2FE892AAD371</a:ObjectID>
 <a:Name>Commande prêt</a:Name>
 <a:Code>Commande_pret</a:Code>
@@ -3463,13 +3495,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1738518889</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Object1>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object1>
 <c:Object2>
 <o:OrganizationUnit Ref="o5"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o23">
+<o:BusinessFlow Id="o24">
 <a:ObjectID>529C2653-9B25-440D-ABAC-5AE64B57A4BD</a:ObjectID>
 <a:Name>confection terminée</a:Name>
 <a:Code>confection_terminee</a:Code>
@@ -3478,13 +3510,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1738519151</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Object1>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object2>
 </o:BusinessFlow>
-<o:BusinessFlow Id="o25">
+<o:BusinessFlow Id="o26">
 <a:ObjectID>E5807360-88BC-494B-B284-1FAFF8F23BD7</a:ObjectID>
 <a:Name>règlement final</a:Name>
 <a:Code>reglement_final</a:Code>
@@ -3493,10 +3525,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1738519199</a:ModificationDate>
 <a:Modifier>lenovo</a:Modifier>
 <c:Object1>
-<o:Person Ref="o8"/>
+<o:Person Ref="o9"/>
 </c:Object1>
 <c:Object2>
-<o:Person Ref="o9"/>
+<o:Person Ref="o10"/>
 </c:Object2>
 </o:BusinessFlow>
 </c:BusinessFlows>
